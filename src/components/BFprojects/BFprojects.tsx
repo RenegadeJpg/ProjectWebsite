@@ -7,7 +7,7 @@ const Team = [
     name: "Baboon Sanctuary",
     description: "Details about the Baboon project.",
     url: "/baboons",
-    img: "/img/ProjectThumbnails/baboonThumbnail.jpeg",
+    img: "/img/ProjectThumbnails/baboon/baboonThumbnail.jpeg",
   },
 ];
 
