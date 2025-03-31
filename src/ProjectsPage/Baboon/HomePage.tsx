@@ -58,13 +58,18 @@ const HomePage = () => {
         <TeamMemberSection
           projectName="Baboon Sanctuary"
           team={[
-            { name: "Maxienne Neuwenhuys", description: "", img: "" },
-            { name: "Heidi Lynn", description: "", img: "" },
+            {
+              name: "Maxienne Neuwenhuys",
+              description:
+                " a lifelong healer, environmentalist, and spiritual guide. With roots in a lineage of shamans, her intuitive gifts shaped a distinguished medical career as an Advanced Helicopter Paramedic and Chief Medical Officer for Motorsport South Africa. Her experience spans A&E, ICU, sea rescue, and emergency care. Today, Shaman Max blends this expertise with esoteric healing—offering hypnotherapy, astrology, Kabbalah, and sound alchemy to help others heal at a soul level. A devoted mental health advocate and global community builder in Web3 spaces, she champions planetary care and the protection of all living beings.",
+              img: "/img/team/Maxie.jpeg",
+            },
+            //{ name: "Heidi Lynn", description: "", img: "" },
           ]}
         />
         <ContactSection
           email=""
-          X=""
+          X="https://twitter.com/baboonsanctuary"
           Instagram=""
           Tiktok=""
           Discord=""
