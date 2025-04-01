@@ -1,4 +1,4 @@
-import IntroSection from "./Sections/IntoSection";
+import IntroSection from "./Sections/IntroSection";
 import CoreVision from "./Sections/CoreVisionSection";
 import PDFViewerComponent from "./Sections/PDFViewerSection";
 import RoadmapSection from "./MissionSection/MissionSection";
@@ -64,7 +64,12 @@ const HomePage = () => {
                 " a lifelong healer, environmentalist, and spiritual guide. With roots in a lineage of shamans, her intuitive gifts shaped a distinguished medical career as an Advanced Helicopter Paramedic and Chief Medical Officer for Motorsport South Africa. Her experience spans A&E, ICU, sea rescue, and emergency care. Today, Shaman Max blends this expertise with esoteric healing—offering hypnotherapy, astrology, Kabbalah, and sound alchemy to help others heal at a soul level. A devoted mental health advocate and global community builder in Web3 spaces, she champions planetary care and the protection of all living beings.",
               img: "/img/team/Maxie.jpeg",
             },
-            //{ name: "Heidi Lynn", description: "", img: "" },
+            {
+              name: "Heidi Lynn",
+              description:
+                "A passionate seeker, blending entrepreneurship, creativity, and holistic healing. As CEO of a thriving real estate company, they lead with clarity and vision—yet it’s behind the camera where Heidi’s artistry comes alive, capturing the world’s quiet beauty through photography. Deeply connected to animals and nature, Heidi’s humanitarian spirit guides their mission to bring insight and intention into every facet of life. With a background in Kinesiology, a deep study of astrology, and expertise in Auricular Acupuncture, Heidi bridges body and spirit in a practice rooted in conscious awareness. Their journey is one of purpose, growth, and inspired living.",
+              img: "/img/team/Heidi.jpeg",
+            },
           ]}
         />
         <ContactSection

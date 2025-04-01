@@ -14,19 +14,18 @@ const PDFViewerComponent: React.FC<PDFViewerComponentProps> = ({
           <h1 className="text-3xl font-bold text-primary-darker mb-6">
             {projectName}'s Whitepaper
           </h1>
-          <object
-            data={pdfPath}
-            type="application/pdf"
+          <iframe
+            src={pdfPath}
             className="w-full h-96 border-0"
-          >
-            <p className="text-primary-dark">
-              Your web browser doesn't have a PDF plugin. Instead you can{" "}
-              <a href={pdfPath} className="text-primary underline">
-                click here to download the PDF
-              </a>
-              .
-            </p>
-          </object>
+            title={`${projectName} Whitepaper`}
+          ></iframe>
+          <p className="text-primary-dark">
+            Your web browser doesn't support displaying PDFs. Instead you can{" "}
+            <a href={pdfPath} className="text-primary underline">
+              click here to download the PDF
+            </a>
+            .
+          </p>
         </div>
       </div>
     </div>

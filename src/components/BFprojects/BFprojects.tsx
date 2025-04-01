@@ -5,7 +5,7 @@ import BFprojects from "./BFprojectsCard";
 const Team = [
   {
     name: "Baboon Sanctuary",
-    description: "Details about the Baboon project.",
+    description: "Details about the Baboon Sanctuary project.",
     url: "/baboons",
     img: "/img/ProjectThumbnails/baboon/baboonThumbnail.jpeg",
   },
