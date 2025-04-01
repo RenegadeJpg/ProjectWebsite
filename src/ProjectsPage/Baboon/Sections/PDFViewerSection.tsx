@@ -16,6 +16,8 @@ const PDFViewerComponent: React.FC<PDFViewerComponentProps> = ({
           </h1>
           <iframe
             src={pdfPath}
+            width="98%"
+            height="98%"
             className="w-full h-96 border-0"
             title={`${projectName} Whitepaper`}
           ></iframe>
